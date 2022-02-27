@@ -9,7 +9,7 @@ async function cardOneReveal() {
   const data = await response.json();
 
   const tarotName = data.cards[0].name;
-  const cardDescription = data.cards[0].desc;
+  const cardDescription = data.cards[0].meaning_up;
 
   const cardOne = document.querySelector(".card-img-1");
   cardOne.src = `./images/${tarotName}.png`;
@@ -28,7 +28,7 @@ async function cardTwoReveal() {
   const data = await response.json();
 
   const tarotName = data.cards[0].name;
-  const cardDescription = data.cards[0].desc;
+  const cardDescription = data.cards[0].meaning_up;
 
   const cardTwo = document.querySelector(".card-img-2");
   cardTwo.src = `./images/${tarotName}.png`;
@@ -47,7 +47,7 @@ async function cardThreeReveal() {
   const data = await response.json();
 
   const tarotName = data.cards[0].name;
-  const cardDescription = data.cards[0].desc;
+  const cardDescription = data.cards[0].meaning_up;
 
   const cardThree = document.querySelector(".card-img-3");
   cardThree.src = `./images/${tarotName}.png`;
