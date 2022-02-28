@@ -288,11 +288,12 @@ ol {
   background-color: white;
   overflow-y: scroll;
   transition: 0.8s ease;
+  margin: 0;
 }
 
 .card:hover .card-desc {
   opacity: 1;
-  height: 85%;
+  height: 92%;
 }
 
 .suit-desc {
@@ -303,4 +304,10 @@ ol {
 
 main .suit-desc {
   text-align: center;
+}
+
+.paragraph-desc {
+  font-size: 1em;
+  margin: 0 10% 0 10%;
+  text-align: left !important;
 }
