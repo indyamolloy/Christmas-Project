@@ -1,5 +1,5 @@
 
-<h1 align="center">The Tarot</h1>
+<h1 align="center">:sparkles:The Tarot:sparkles:</h1>
 
 
 
